@@ -1,9 +1,121 @@
-<html>
-	<body>
-		Something
-				<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+<!-- 5 <html ng-app="App3">
+<head>
+	<title></title>
+</head>
+<body ng-controller="MainCtrl">
+	<h1>relentless</h1>
+
+	<input type="text" placeholder="find me" ng-model="name">
+
+	<div ng-repeat="info in list | filter: name | filter: email | filter: phone">
+		{{info.name}}
+		{{info.email}}
+		{{info.phone}}
+
+	</div>
+       
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+		<script src="app.js"></script>
+		<script src="controller.js"></script>
+		<script src="service.js"></script>
+</body>
+</html> -->
+
+<!-- 4 <html ng-app="App3"
+<head>
+	<title>app3</title>
+</head>
+<body ng-controller="MainCtrl">
+	<h1>relentless</h1>
+	<input type="text" placeholder="find me here" ng-model="name">
+	<div ng-repeat="info in list | filter: name | filter: email | filter: phone">
+		<div>{{info.name}}</div>
+		<div>{{info.email}}</div>
+		<div>{{info.phone}}</div>
+
+	</div>
+        
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+		<script src="app.js"></script>
+		<script src="controller.js"></script>
+		<script src="service.js"></script>
+</body>
+</html> -->
+
+<!-- 3 <html ng-app="App3">
+<head>
+	<title>app3</title>
+</head>
+<body ng-controller="MainCtrl">
+	<h1>relentless</h1>
+    <input type="text" placeholder="find.." ng-model="name">
+	<div ng-repeat="info in list | filter: name | filter: email | filter: phone">
+        <div>{{info.name}}</div>
+        <div>{{info.email}}</div>
+        <div>{{info.phone}}</div>
+
+	</div>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+		<script src="app.js"></script>
+		<script src="controller.js"></script>
+		<script src="service.js"></script>
+</body>
+</html> -->
+
+<!-- 2 <html ng-app="App3">
+<head>
+	<title>app3</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+<body ng-controller="MainCtrl">
+	<h1>relentless</h1>
+   <div class="col-md-4">
+	<input type="text" placeholder="Im lookinf for.." ng-model="name">
+	<div ng-repeat="info in getIt | filter: name | filter: email">
+		<div><p>{{info.name}}</p></div>
+		<div>{{info.email}}</div>
+
+	</div>
+   </div>
+	    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+		<script src="app.js"></script>
+		<script src="controller.js"></script>
+		<script src="service.js"></script>
+</body>
+</html> -->
+
+<!-- 1 <html ng-app="App3">
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+	<body ng-controller="MainCtrl">
+		<h1>APP 3</h1>
+	   
+	    <div class="col-md-4">
+	    	<input ng-model="name">
+	    <div ng-repeat="yes in yes | filter: phone | filter: name | filter: email">
+	    	<span>{{yes.name}}</span>
+	    	<div>{{yes.email}} {{yes.dateEmployed}}</div>
+
+	    	<span>{{yes.phone}}</span>
+	    	
+	    	</div>
+	    </div>
+	   
+
+
+
+
+
+	    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
 		<script src="app.js"></script>
 		<script src="controller.js"></script>
 		<script src="service.js"></script>
 	</body>
-</html>
+</html> -->

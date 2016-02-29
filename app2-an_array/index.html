@@ -1,12 +1,128 @@
-<html ng-app="arrayApp">
+<html ng-app="App2">
+<head>
+	<title>app2</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body ng-controller="MainCtrl">
+	<div ng-repeat="items in getIt">
+		<ul>
+		<li><p>{{items. name}}</p>{{items.email}}
+		   {{items.phone}}</li>
+		   
+        </ul>
+	</div>
+        
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+		<script src="app.js"></script>
+		<script src="controller.js"></script>
+		<script src="service.js"></script>	
+
+</body>
+</html>
+
+<!-- 5 <html ng-app="App2">
+<head>
+	<title>app2</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+<body ng-controller="MainCtrl">
+
+
+	<div ng-repeat="info in getData">
+        <p>{{info.name}}</p>
+        {{info.email}}
+        
+	</div>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+		<script src="app.js"></script>
+		<script src="controller.js"></script>
+		<script src="service.js"></script>
+</body>
+</html> -->
+
+<!-- 4 <html ng-app="App2">
+<head>
+	<title>app2</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+<body ng-controller="MainCtrl">
+    <h1>Who is here?</h1>
+	 <div class="col-md-4">
+	 	<h3>List</h3>
+	 	<div ng-repeat="info in getData">
+
+	 		<p>{{info.name}}</p>
+	 		{{info.email}}
+	 		{{info.phone}}
+	 	</div>
+	 
+	 </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+		<script src="app.js"></script>
+		<script src="controller.js"></script>
+		<script src="service.js"></script>
+</body>
+</html> -->
+
+<!-- 3  <html ng-app="App2">
+<head>
+	<title>eventList</title>
+</head>
+<body ng-controller="MainCtrl">
+    
+    <div ng-repeat="who in trevor">
+    	{{who}}
+    
+
+	    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+		<script src="app.js"></script>
+		<script src="controller.js"></script>
+		<script src="service.js"></script>
+
+</body>
+</html> -->
+
+<!-- 2  <html ng-app="App2">
+<head>
+	<title></title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body ng-controller="MainCtrl">
+    <h1>Tonight's Event</h1>
+
+    <div ng-repeat="people in gathering"> 
+    {{people}}
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+		<script src="app.js"></script>
+		<script src="controller.js"></script>
+		<script src="service.js"></script>
+</body>
+</html>
+ -->
+
+<!-- 1 <html ng-app="App2">
 	<head>
 		<link rel="stylesheet" href="style.css"></link>
 	</head>
-	<body ng-controller="arrayController">
+	<body ng-controller="MainCtrl">
+
+			 <div ng-repeat="banana in bananaInfo">
+	   	     {{banana}}
+	      
+	    
 	
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
 		<script src="app.js"></script>
 		<script src="controller.js"></script>
 		<script src="service.js"></script>
+
 	</body>
-</html>
+</html> -->
